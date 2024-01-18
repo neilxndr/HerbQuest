@@ -26,7 +26,7 @@ model = load_model("keras_Model2.h5", compile=False)
 class_names = open("labels2.txt", "r").readlines()
 
 # Define OpenAI API key
-openai.api_key = "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"
+openai.api_key = "your api key here"
 
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
 # db = SQLAlchemy(app)
